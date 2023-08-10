@@ -7,7 +7,7 @@ div.addEventListener('click', () => {
 
 const saludar = document.getElementById("saludar")
 saludar.addEventListener('click', (e) => {
-    e.stopPropagation();
     alert('Hola!');
+    e.stopPropagation();
 })
 
